@@ -63,6 +63,5 @@ void updateData() {
 而在这种情况下，因为mData的地址已经固定，只是对其内容进行增删，通过调用notifyDataSetChanged则可以判断mData是否发生了变化从而刷新UI。
 
 
-# DEMO
-最后附上[demo地址](https://github.com/Bravest-Ptt/NDSCNoResponse)， 简单展现了这两种情况。
+# 效果图
 ![效果图](http://upload-images.jianshu.io/upload_images/3971774-c357e4ceffc99efa?imageMogr2/auto-orient/strip)
